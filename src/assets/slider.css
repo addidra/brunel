@@ -1,0 +1,26 @@
+.slide-in {
+    animation: slideIn 1s backwards;
+  }
+  
+  .slide-out {
+    animation: slideOut 1s backwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-20%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(20%);
+    }
+  }
+  
